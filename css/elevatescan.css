@@ -144,6 +144,22 @@
   border-color: #3898ec;
 }
 
+.w-embed-youtubevideo {
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
 .w-commerce-commercecheckoutformcontainer {
   background-color: #f5f5f5;
   width: 100%;
@@ -7640,6 +7656,14 @@ figcaption {
     padding: .75rem;
   }
 
+  .home-v1-header_content {
+    top: 100px;
+  }
+
+  .section_home-v1-header {
+    display: block;
+  }
+
   .home-v1-header_image-wrapper {
     width: 30vw;
     height: 35vw;
@@ -8006,6 +8030,15 @@ figcaption {
   .blog-post3-content_share-wrapper {
     width: 100%;
     margin-bottom: 2rem;
+  }
+
+  .home-v1-header_title-wrapper {
+    clear: both;
+    position: relative;
+  }
+
+  .container {
+    min-height: 35px;
   }
 }
 
