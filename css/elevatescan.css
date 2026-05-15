@@ -9,11 +9,11 @@
   --color-swatches--blue-13: #6270ea;
   --background-color--background-white: white;
   --background-color--background-transparent: var(--color-swatches--transparent);
-  --border-color--border-primary: #0b6dff;
+  --border-color--border-primary: #0D00FF;
   --text-color--text-blue: var(--color-swatches--blue-light-500);
   --color-swatches--white: white;
-  --color-swatches--royal-blue\<deleted\|variable-52b463c3\>: #0b6dff;
-  --color-swatches--dark-turquoise\<deleted\|variable-4086b1b0\>: #0be7ff;
+  --color-swatches--royal-blue\<deleted\|variable-52b463c3\>: #0D00FF;
+  --color-swatches--dark-turquoise\<deleted\|variable-4086b1b0\>: #0B00E6;
   --text-color--text-gray: var(--color-swatches--grey-10);
   --color-swatches--light-grey\<deleted\|variable-150a737e\>: #f4f4f4;
   --border-color--border-tertiary: var(--color-swatches--neutral-blue-50);
@@ -37,8 +37,8 @@
   --background-color--background-gray: var(--color-swatches--dark-gray-12);
   --text-color--text-gray-6: var(--color-swatches--gray-6);
   --background-color--background-light-gray-10: var(--color-swatches--light-gray-10);
-  --color-swatches--blue-light-500: #4382ff;
-  --border-color--border-secondary: #0be7ff;
+  --color-swatches--blue-light-500: #0D00FF;
+  --border-color--border-secondary: #0B00E6;
   --color-swatches--light-gray-10: #f1f4fa;
   --color-swatches--neutral-ccc: #ccc;
   --color-swatches--pricing: #dee6fe;
@@ -46,7 +46,7 @@
   --color-swatches--neutral-700: #262626;
   --color-swatches--semantic-text-body: #404040;
   --color-swatches--neutral-50: #f5f5f5;
-  --color-swatches--semantic-text-action: #27cab5;
+  --color-swatches--semantic-text-action: #0D00FF;
   --color-swatches--neutral-25: #fafafa;
   --color-swatches--semantic-text-headings: #171717;
   --color-swatches--dark-gray-12: #333;
@@ -61,8 +61,8 @@
   --color-swatches--primary-blue-blue-3: #f9f9fe;
   --background-color--background-success: var(--color-swatches--green);
   --background-color--background-error: var(--color-swatches--red);
-  --link-color--link-primary: #0b6dff;
-  --link-color--link-secondary: #0be7ff;
+  --link-color--link-primary: #0D00FF;
+  --link-color--link-secondary: #0B00E6;
   --text-color--text-success: var(--color-swatches--green);
   --text-color--text-error: var(--color-swatches--red);
   --text-color--text-black: var(--color-swatches--black);
@@ -116,16 +116,16 @@
 }
 
 .w-checkbox-input--inputType-custom.w--redirected-checked {
-  background-color: #3898ec;
+  background-color: #0D00FF;
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  border-color: #3898ec;
+  border-color: #0D00FF;
 }
 
 .w-checkbox-input--inputType-custom.w--redirected-focus {
-  box-shadow: 0 0 3px 1px #3898ec;
+  box-shadow: 0 0 3px 1px #0D00FF;
 }
 
 .w-form-formradioinput--inputType-custom {
@@ -136,12 +136,12 @@
 }
 
 .w-form-formradioinput--inputType-custom.w--redirected-focus {
-  box-shadow: 0 0 3px 1px #3898ec;
+  box-shadow: 0 0 3px 1px #0D00FF;
 }
 
 .w-form-formradioinput--inputType-custom.w--redirected-checked {
   border-width: 4px;
-  border-color: #3898ec;
+  border-color: #0D00FF;
 }
 
 .w-embed-youtubevideo {
@@ -213,7 +213,7 @@
 }
 
 .w-commerce-commercecheckoutemailinput:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -249,7 +249,7 @@
 }
 
 .w-commerce-commercecheckoutshippingfullname:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -272,7 +272,7 @@
 }
 
 .w-commerce-commercecheckoutshippingstreetaddress:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -295,7 +295,7 @@
 }
 
 .w-commerce-commercecheckoutshippingstreetaddressoptional:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -330,7 +330,7 @@
 }
 
 .w-commerce-commercecheckoutshippingcity:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -353,7 +353,7 @@
 }
 
 .w-commerce-commercecheckoutshippingstateprovince:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -376,7 +376,7 @@
 }
 
 .w-commerce-commercecheckoutshippingzippostalcode:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -399,7 +399,7 @@
 }
 
 .w-commerce-commercecheckoutshippingcountryselector:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -456,7 +456,7 @@
 }
 
 .w-commerce-commercecheckoutcardnumber:focus, .w-commerce-commercecheckoutcardnumber.-wfp-focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -480,7 +480,7 @@
 }
 
 .w-commerce-commercecheckoutcardexpirationdate:focus, .w-commerce-commercecheckoutcardexpirationdate.-wfp-focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -504,7 +504,7 @@
 }
 
 .w-commerce-commercecheckoutcardsecuritycode:focus, .w-commerce-commercecheckoutcardsecuritycode.-wfp-focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -546,7 +546,7 @@
 }
 
 .w-commerce-commercecheckoutbillingfullname:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -569,7 +569,7 @@
 }
 
 .w-commerce-commercecheckoutbillingstreetaddress:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -592,7 +592,7 @@
 }
 
 .w-commerce-commercecheckoutbillingstreetaddressoptional:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -615,7 +615,7 @@
 }
 
 .w-commerce-commercecheckoutbillingcity:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -638,7 +638,7 @@
 }
 
 .w-commerce-commercecheckoutbillingstateprovince:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -661,7 +661,7 @@
 }
 
 .w-commerce-commercecheckoutbillingzippostalcode:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -684,7 +684,7 @@
 }
 
 .w-commerce-commercecheckoutbillingcountryselector:focus {
-  border-color: #3898ec;
+  border-color: #0D00FF;
   outline-style: none;
 }
 
@@ -759,7 +759,7 @@
   -webkit-appearance: none;
   appearance: none;
   text-align: center;
-  background-color: #3898ec;
+  background-color: #0D00FF;
   border-width: 0;
   border-radius: 3px;
   align-items: center;
@@ -1479,7 +1479,7 @@ figcaption {
   color: var(--color-swatches--white);
   white-space: nowrap;
   cursor: context-menu;
-  background-color: #0073e6;
+  background-color: #0D00FF;
   padding: .25rem .5rem;
   font-size: .75rem;
   display: inline-block;
@@ -1757,7 +1757,7 @@ figcaption {
 }
 
 .text-color-blue {
-  color: #0b6dff;
+  color: #0D00FF;
 }
 
 .styleguide_section {
@@ -1938,7 +1938,7 @@ figcaption {
   width: .875rem;
   height: .875rem;
   margin: 0 .5rem 0 0;
-  box-shadow: 0 0 .25rem 0 #3898ec;
+  box-shadow: 0 0 .25rem 0 #0D00FF;
 }
 
 .form_radio {
@@ -1966,7 +1966,7 @@ figcaption {
 .form_radio-icon.w--redirected-focus {
   width: .875rem;
   height: .875rem;
-  box-shadow: 0 0 .25rem 0 #3898ec;
+  box-shadow: 0 0 .25rem 0 #0D00FF;
 }
 
 .form_message-success {
@@ -3798,7 +3798,7 @@ figcaption {
 
 .contact-form_input:focus {
   color: #363b4e;
-  border-color: #0a3af8;
+  border-color: #0D00FF;
 }
 
 .contact-form_input::placeholder {
