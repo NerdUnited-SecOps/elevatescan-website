@@ -2361,6 +2361,36 @@ figcaption {
   display: flex;
 }
 
+.upcoming-explorers_section {
+  background-color: var(--background-color--background-secondary);
+}
+
+.upcoming-explorers_list {
+  grid-row-gap: 2rem;
+}
+
+.upcoming-explorer_item {
+  background-color: var(--background-color--background-white);
+  border: 1px solid var(--border-color--border-tertiary);
+  border-radius: .75rem;
+  padding: 2rem;
+  box-shadow: 0 1px 3px #1018281a;
+}
+
+.upcoming-explorer_status {
+  color: var(--text-color--text-blue);
+  letter-spacing: 0;
+  text-transform: uppercase;
+  background-color: var(--background-color--background-blue-25);
+  border-radius: 999px;
+  margin-bottom: 1rem;
+  padding: .25rem .75rem;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.4;
+  display: inline-block;
+}
+
 .icon-1x1-medium {
   width: 3rem;
   height: 3rem;
